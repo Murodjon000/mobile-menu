@@ -1,5 +1,3 @@
-/* eslint-disable  no-unused-vars */
-
 const openNav = () => {
   document.getElementById('myNav').style.width = '100%';
 };
@@ -7,3 +5,6 @@ const openNav = () => {
 const closeNav = () => {
   document.getElementById('myNav').style.width = '0%';
 };
+
+openNav();
+closeNav();
